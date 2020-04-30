@@ -1,0 +1,36 @@
+
+.active__tab {
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px 0;
+	position: left;
+	
+	color: #fff;
+	background-color : #291F00;
+	
+	font-weight : bold;
+	padding : 5px 35px;
+	
+	text-decoration: none;
+	text-align : center;
+	transition: color 0.2s linear;
+	transition : background-color 0.35s linear;
+}
+
+.notactive__tab {
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px 0;
+	position: left;
+
+	color: #FFFF99;
+	background-color : #7A5C00;
+	
+	font-weight : bold;
+	padding : 5px 35px;
+	
+	text-decoration: none;
+	text-align : center;
+	transition: color 0.2s linear;
+	transition : background-color 0.35s linear;
+}
