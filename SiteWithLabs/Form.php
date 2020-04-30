@@ -20,9 +20,8 @@
 <main class="introduction">
 	<div class="intro__container">
 		<div class="main__form">
-			<form method="post" action="Main.php">
-				Первый массив:   <input type="text" name="FirstArray" size="40" /><br />
-				Второй массив:   <input type="text" name="SecondArray" size="40" /><br />
+			<form method="post" action="Main4.php">
+				Введите текст:   <input type="text" name="text" size="100" /><br />
 				<input type="submit" value="OK" /><br />
 			</form>
 		</div>
