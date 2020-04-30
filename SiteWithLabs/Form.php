@@ -20,9 +20,8 @@
 <main class="introduction">
 	<div class="intro__container">
 		<div class="main__form">
-			<form method="post" action="Main.php">
-				Первый массив:   <input type="text" name="FirstArray" size="40" /><br />
-				Второй массив:   <input type="text" name="SecondArray" size="40" /><br />
+			<form method="post" action="Main3.php">
+				Введите каталог для поиска:   <input type="text" name="directory" size="40" /><br />
 				<input type="submit" value="OK" /><br />
 			</form>
 		</div>
