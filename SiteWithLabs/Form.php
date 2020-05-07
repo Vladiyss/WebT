@@ -20,9 +20,8 @@
 <main class="introduction">
 	<div class="intro__container">
 		<div class="main__form">
-			<form method="post" action="Main.php">
-				Первый массив:   <input type="text" name="FirstArray" size="40" /><br />
-				Второй массив:   <input type="text" name="SecondArray" size="40" /><br />
+			<form method="post" action="Main5.php">
+				Введите название БД:   <input type="text" name="databaseName" size="100" value="clinic2" /><br />
 				<input type="submit" value="OK" /><br />
 			</form>
 		</div>
