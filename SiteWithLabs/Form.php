@@ -1,3 +1,5 @@
+<?php require_once('Main8.php'); ?>
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -20,11 +22,7 @@
 <main class="introduction">
 	<div class="intro__container">
 		<div class="main__form">
-			<form method="post" action="Main.php">
-				Первый массив:   <input type="text" name="FirstArray" size="40" /><br />
-				Второй массив:   <input type="text" name="SecondArray" size="40" /><br />
-				<input type="submit" value="OK" /><br />
-			</form>
+			<?php require_once('Statistics_output.php'); ?>
 		</div>
 		<div class="other__info">
 			<form>
